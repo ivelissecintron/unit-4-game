@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+    background-color: chocolate;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    width: 20%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+#instructions {
+    color: green;
+    background-color: linen;
+    height: 300px;
+    width: 50%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+body {
+    background-image: url("greendustscratch.png");
+}
+.randomnumber {
+    color: navy;
+    background-color: green;
+    height: 100px;
+    width: 20%;
+    margin-bottom: 20px;
+}
+.winslosses {
+    background-color: cyan;
+    height: 200px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.yourscoreis {
+    background-color: teal;
+    color: white;
+    height: 100px;
+    width: 20%;
+    margin-bottom: 20px;   
+}
+.totalscore {
+        background-color: teal;
+        color: white;
+        height: 100px;
+        width: 20%;
+        margin-bottom: 20px;
+}
