@@ -16,9 +16,10 @@ h1 {
     width: 50%;
     font-weight: bold;
     margin-bottom: 20px;
+    padding-top: 30px;
 }
 body {
-    background-image: url("greendustscratch.png");
+    background-image: url("../images/greendustscratch.png");
 }
 .randomnumber {
     color: navy;
@@ -26,24 +27,34 @@ body {
     height: 100px;
     width: 20%;
     margin-bottom: 20px;
+    float: left;
+    font-size: 40px;
 }
-.winslosses {
+.winsandlosses {
     background-color: cyan;
-    height: 200px;
-    width: 50%;
+    height: 100px;
+    width: 10%;
     margin-bottom: 20px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
 }
 .yourscoreis {
     background-color: teal;
     color: white;
-    height: 100px;
+    height: 50px;
     width: 20%;
     margin-bottom: 20px;   
 }
 .totalscore {
-        background-color: teal;
-        color: white;
-        height: 100px;
-        width: 20%;
-        margin-bottom: 20px;
+    background-color: teal;
+    color: white;
+    height: 100px;
+    width: 20%;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.crystals {
+    clear: both;
+    padding-bottom: 10px;
 }

@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="./assets/css/reset.css">
 <link rel="stylesheet" href="./assets/css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <body>
 
 <h1>Crystals Collector!</h1>
@@ -26,20 +27,20 @@
 </div>
 
 <div class="randomnumber">
-<p>39</p>
+
 </div>
 
-<div class="winslosses">
-    <p>Wins:</p>
+<div class="winsandlosses">
+    Wins:<span id="numberWins"></span>
     <br>
-    <p>Losses:</p>
+    Losses:<span id="numberLosses"></span>
 </div>
 
-<div class="crystalsbox">
-    <img class="crystals" src="assets/images/clearcrystal.jpg" alt="clearcrystal" height="100" width="100">
-    <img class="crystals" src="assets/images/greencrystal.jpg" alt="greencrystal" height="100" width="100">
-    <img class="crystals" src="assets/images/redcrystal.jpg" alt="redcrystal" height="100" width="100">
-    <img class="crystals" src="assets/images/yellowcrystal.png" alt="yellowcrystal" height="100" width="100">
+<div class="crystals">
+    <img class="crystalimage" src="assets/images/clearcrystal.jpg" id="clear" alt="clearcrystal" height="100" width="100">
+    <img class="crystalimage" src="assets/images/greencrystal.jpg" id="green" alt="greencrystal" height="100" width="100">
+    <img class="crystalimage" src="assets/images/redcrystal.jpg" id="red" alt="redcrystal" height="100" width="100">
+    <img class="crystalimage" src="assets/images/yellowcrystal.png" id="yellow" alt="yellowcrystal" height="100" width="100">
 </div>
 
 <div class="yourscoreis">
@@ -47,8 +48,10 @@
 </div>
 
 <div class="totalscore">
-<p>0</p>
+
 </div>
 
+<script type "text/javascript" src="assets/javascript/game.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </body>
 </html>
